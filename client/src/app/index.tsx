@@ -93,3 +93,5 @@ function Footer() {
     </View>
   );
 }
+
+del
