@@ -8,7 +8,6 @@ export default function Page() {
     <View className="flex flex-1">
       <Header />
       <Content />
-      <Footer />
     </View>
   );
 }
