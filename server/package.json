@@ -8,5 +8,9 @@
   "keywords": [],
   "author": "Prathap",
   "license": "ISC",
-  "description": "A Mobile Music Player App Named Auralyn, Build Using React Native With Expo."
+  "description": "A Mobile Music Player App Named Auralyn, Build Using React Native With Expo.",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3"
+  }
 }
