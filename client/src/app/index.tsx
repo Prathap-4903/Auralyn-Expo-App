@@ -13,7 +13,6 @@ export default function Page() {
   );
 }
 
-
 function Content() {
   return (
     <View className="flex-1">
