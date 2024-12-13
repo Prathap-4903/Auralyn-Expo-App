@@ -7,8 +7,6 @@ export default function Page() {
   return (
     <View className="flex flex-1">
       <Header />
-      <Content />
-      <Footer />
     </View>
   );
 }
