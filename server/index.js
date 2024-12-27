@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 
 //Backend Configuration
 const app = express();
+app.use(express.json());
 app.use(cors());
 
 //Server Configuration
