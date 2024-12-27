@@ -7,6 +7,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+//API
+
 //Server Configuration
 const PORT = 5000;
 app.listen(PORT, () => {
