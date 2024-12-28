@@ -8,7 +8,9 @@ app.use(express.json());
 app.use(cors());
 
 //API
-app.get('/', () => "Welcome! To The Auralyn Server..");
+app.get('/', (req, res) => {
+    res.send("Welcome! To The Auralyn Server..");
+});
 
 //Server Configuration
 const PORT = 5000;
