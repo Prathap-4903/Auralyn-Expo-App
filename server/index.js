@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 //API
-app.get();
+app.get('/');
 
 //Server Configuration
 const PORT = 5000;
