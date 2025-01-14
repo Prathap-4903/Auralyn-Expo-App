@@ -6,7 +6,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     console.log("Hola From Auralyn Server")
-    res.send('Hello From Server!');
+    res.send('Hola From Auralyn Server...');
 });
 
 const PORT = 5000 || process.env.PORT;
