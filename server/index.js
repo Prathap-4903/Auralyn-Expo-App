@@ -5,6 +5,7 @@ require('dotenv').config();
 const app = express();
 
 app.get('/', (req, res) => {
+    console.log("Hola From Auralyn Server")
     res.send('Hello From Server!');
 });
 
