@@ -5,6 +5,8 @@ require('dotenv').config();
 //Backend Configuration
 const app = express();
 
+//MongoDB Configuration
+
 //Routes
 app.get('/', (req, res) => {
     res.send('Hola From Auralyn Server...');
