@@ -6,6 +6,7 @@ require('dotenv').config();
 const app = express();
 
 //MongoDB Configuration
+mongoose.connect()
 
 //Routes
 app.get('/', (req, res) => {
