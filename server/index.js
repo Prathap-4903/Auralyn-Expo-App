@@ -7,7 +7,9 @@ const app = express();
 
 //MongoDB Configuration
 mongoose.connect("mongodb://localhost:27017")
-.then(())
+.then(() => {
+    
+})
 .catch((err))
 
 //Routes
