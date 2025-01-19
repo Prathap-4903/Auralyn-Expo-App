@@ -6,9 +6,9 @@ require('dotenv').config();
 const app = express();
 
 //MongoDB Configuration
-mongoose.connect("mongodb://localhost:27017")
+mongoose.connect("mongodb://localhost:27017/auralyn")
 .then(() => {
-    console.log("MongoDB Connected - Auralyn")
+    console.log("MongoDB Connected")
 })
 .catch((error) => {
     console.log("MongoDB Error : ", error)
