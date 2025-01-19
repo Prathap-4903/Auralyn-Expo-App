@@ -10,8 +10,8 @@ mongoose.connect("mongodb://localhost:27017/auralyn")
 .then(() => {
     console.log("MongoDB Connected - Auralyn")
 })
-.catch((error) => {
-    console.log("MongoDB Error : ", error)
+.catch((err) => {
+    console.log("MongoDB Error : ", err)
 })
 
 //Routes
