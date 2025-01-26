@@ -16,7 +16,7 @@ mongoose.connect("mongodb://localhost:27017/auralyn");
 
 //Routes
 app.get('/', (req, res) => {
-    res.send('Hola From Auralyn Server...');
+    res.send('Hello From Auralyn Server...');
 });
 
 //Running Server
