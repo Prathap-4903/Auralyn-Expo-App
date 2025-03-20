@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
     res.send('Hello From Auralyn Server...');
 });
 
-// Server
+// Server Configuration
 const PORT = 5000 || process.env.PORT;
 app.listen(PORT, () => {
     console.log(`Server is Running on PORT : ${PORT}`);
