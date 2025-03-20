@@ -1,12 +1,12 @@
-// Package
+// Packages
 const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-//Backend Configuration
+// Backend Configuration
 const app = express();
 
-//MongoDB Configuration
+// MongoDB Configuration
 mongoose.connect("mongodb://localhost:27017/auralyn");
 .then(() => {
     console.log("MongoDB Connected - Auralyn");
@@ -15,12 +15,12 @@ mongoose.connect("mongodb://localhost:27017/auralyn");
     console.log("MongoDB Error : ", err);
 })
 
-//Routes
+// Routes
 app.get('/', (req, res) => {
     res.send('Hello From Auralyn Server...');
 });
 
-//Running Server
+// Server
 const PORT = 5000 || process.env.PORT;
 app.listen(PORT, () => {
     console.log(`Server is Running on PORT : ${PORT}`);
