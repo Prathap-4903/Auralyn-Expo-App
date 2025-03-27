@@ -7,7 +7,7 @@ require('dotenv').config();
 const app = express();
 
 // MongoDB Configuration
-mongoose.connect("mongodb://localhost:27017/auralyn");
+mongoose.connect(process.env.MONGO_URI);
 .then(() => {
     console.log("MongoDB Connected - Auralyn");
 })
@@ -17,7 +17,7 @@ mongoose.connect("mongodb://localhost:27017/auralyn");
 
 // Routes
 app.get('/', (req, res) => {
-    res.send('Hello From Auralyn Server...');
+    res.send('Hello From Auralyn Server..');
 });
 
 // Server Configuration
