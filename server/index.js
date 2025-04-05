@@ -7,7 +7,7 @@ require('dotenv').config();
 const app = express();
 
 // MongoDB Configuration
-mongoose.connect(process.env.MONGO_URI);
+mongoose.connect(process.env.MONGO_URI)
 .then(() => {
     console.log("MongoDB Connected - Auralyn");
 })
