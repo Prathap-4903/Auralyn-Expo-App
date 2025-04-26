@@ -2,6 +2,6 @@ const express = require('express');
 
 const authApi = express.Router();
 
-authApi.get('/', () => {
-    
-})
+authApi.get('/', (req, res) => {
+
+});
