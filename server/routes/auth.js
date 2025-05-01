@@ -2,6 +2,6 @@ const express = require('express');
 
 const authApi = express.Router();
 
-authApi.get('/', (req, res) => {
-  res.send("Testing API..");
+authApi.get('/sign-in', (req, res) => {
+  res.send("Testing Sign In Route");
 });
