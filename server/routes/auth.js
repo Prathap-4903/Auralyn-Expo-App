@@ -9,3 +9,5 @@ authApi.get('/sign-in', (req, res) => {
 authApi.get('/sign-up', (req, res) => {
   res.send("Testing Sign Up Route");
 });
+
+module.exports = authApi;
