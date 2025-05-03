@@ -3,5 +3,5 @@ const express = require('express');
 const userApi = express.Router();
 
 userApi.get('/', (req, res) => {
-    res.send();
+    res.send("Testing API");
 });
