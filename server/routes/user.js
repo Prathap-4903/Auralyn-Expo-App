@@ -2,6 +2,6 @@ const express = require('express');
 
 const userApi = express.Router();
 
-userApi.get('/', (req, res) => {
-    res.send("API Route is Working!");
+userApi.get('/:username', (req, res) => {
+    res.send("Testing Username API");
 });
